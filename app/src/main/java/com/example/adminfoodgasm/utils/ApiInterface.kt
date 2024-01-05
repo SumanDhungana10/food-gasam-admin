@@ -7,6 +7,7 @@ import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.POST
 
+// API Interface
 interface ApiInterface {
     @POST("payment/verify")
     suspend fun verifyPayment(@Body payload: VerificationPayload): Response<KhaltiValidationSuccessResponse>

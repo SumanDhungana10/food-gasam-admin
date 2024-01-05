@@ -9,6 +9,7 @@ import com.example.adminfoodgasm.databinding.ItemRestaurantBinding
 import com.example.adminfoodgasm.model.ItemModel
 import com.google.firebase.firestore.FirebaseFirestore
 
+// Adapter for the items in the menu
 class ItemAdapter(
     val context: Context,
     val arrayList: ArrayList<ItemModel>,

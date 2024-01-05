@@ -3,6 +3,7 @@ package com.example.adminfoodgasm.model
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 
+// CartProduct is a model class for the cart products
 @Parcelize
 data class CartProduct(
     var id: String,
