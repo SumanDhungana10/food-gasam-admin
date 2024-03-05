@@ -31,7 +31,7 @@ class RestaurantAdapter(val context: Context, val arrayList: ArrayList<Restauran
     override fun getItemCount(): Int {
         return arrayList.size
     }
-
+// last update
     override fun onBindViewHolder(holder: RestaurantViewHolder, position: Int) {
         holder.binding.restaurantName.text =
             arrayList[position].name.toString() // assuming 'name' is the property you want to display
